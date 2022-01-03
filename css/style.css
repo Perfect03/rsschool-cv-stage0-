@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline:none;}
+
+nav,footer,header,aside{display:block;}
+
+html,body{
+height:100%;
+width:100%;
+font-size:100%;
+line-height:1;
+font-size:14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration: none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+body{
+    font-family: "Fira Sans", sans-serif;
+    color:black;
+    /*background-color: black;*/
+}
+.header{
+display: flex;
+align-items: center;
+padding: 10px 0;
+}
+.container{
+    max-width: 68vw;
+    margin: auto;
+}
+.avatar{
+    display: flex;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.name{
+    text-transform: uppercase;
+    font-size: 64px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+}
+.row_main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height:15vh;
+    border-top: 3px solid rgba(80, 78, 82, 0.205);
+    border-bottom: 3px solid rgba(80, 78, 82, 0.205);
+}
+.row_section{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    margin: auto 0;
+}
+.row_section:nth-child(2){
+    border-left: 3px solid rgba(80, 78, 82, 0.205);
+    border-right: 3px solid rgba(80, 78, 82, 0.205);
+}
+.row_span{
+    display: inline-block;
+    margin: auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 25px;
+}
+.main_container{
+    max-width: 64vw;
+    margin: auto;
+}
+.left{
+    padding-left: 18px;
+}
+.item {
+    margin-bottom: 7px;
+    margin-right: 20px;
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+.VK{
+    background-color: black;
+}
+.Facebook{
+    background-color: black;
+}
+.Telegram{
+    background-color: black;
+}
+
+.section_title{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-right: 24px;
+    
+}
+
+.column_1{
+    min-width: 45vh;
+}
+.column_2{
+    left: 0;
+}
+.main_section{
+    display: flex;
+}
+
+.summary{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 23px;
+}
+
+.main_section{
+    padding: 50px 0;
+    border-bottom: 3px solid rgba(80, 78, 82, 0.205);
+}
+
+.item_circle{
+    background-color: black;
+}
+
+.lii span{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 23px;
+}
+
+.lii::before{
+    color:black;
+    content: "▪";
+    padding-right: 10px;
+}
+.lii{
+    margin-bottom: 5px;
+}
+
+.VK:hover{
+    background-color: #0A75A3;
+    transition-duration: 0.2s;
+}
+.Facebook:hover{
+    background-color: #1877F2;
+    transition-duration: 0.2s;
+}
+.Telegram:hover{
+    background-color: #4F9FC1;
+    transition-duration: 0.2s;
+}
+.project{
+    text-decoration: none;
+    background-image: linear-gradient(blue, blue);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.project:hover{
+    background-size: 100% 2px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.year{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    margin-left: 30px;
+}
+.footer_right{
+    display: flex;
+    align-items: center;
+}
+
+.code{
+    font-size: 30px;
+}
