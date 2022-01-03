@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Perfect03.github.io/rsschool-cv/cv
